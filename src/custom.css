@@ -1,0 +1,20 @@
+.relative {
+    position: relative;
+    top: -10%;
+
+}
+
+.absolute {
+    position: absolute;
+    top: 30%;  /* Sesuaikan posisi vertikal */
+    left: 50%;  /* Sesuaikan posisi horizontal */
+    transform: translate(-50%, -50%);  /* Centang gambar secara horizontal dan vertikal */
+}
+
+
+
+img {
+ /* Sesuaikan lebar gambar */
+    width:100%;  
+    height: auto;  /* Sesuaikan tinggi gambar secara proporsional */
+}
